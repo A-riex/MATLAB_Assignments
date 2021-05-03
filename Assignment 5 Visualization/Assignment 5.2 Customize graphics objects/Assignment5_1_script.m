@@ -13,7 +13,7 @@ y1 = sin(x);
 y2 = cos(x);
 f = figure(1)
 
-ax1 = f.Children(1)
+
 
 
 subplot(2,1,1);
@@ -24,6 +24,7 @@ text('Position',[2 -0.3],'String','Cosine')
    
 sub = subplot(2,1,2);
 hold on
+ax1 = f.Children(1)
 ax1.Color = [1 1 0]
 sub.Color = 'y'
 p = plot(x,y1,x,y2)
