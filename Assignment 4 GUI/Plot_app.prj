@@ -1,0 +1,67 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="506615867" file="D:\MATLAB advanced\Assignment 4 GUI\Plot_app.prj" location="D:\MATLAB advanced\Assignment 4 GUI" name="Plot_app" target="target.mlapps" target-name="Package App">
+    <param.appname>Plot_app</param.appname>
+    <param.authnamewatermark>Alexander Riex</param.authnamewatermark>
+    <param.email>aleri934@student.liu.se</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Plot sine-waves</param.summary>
+    <param.description>test app for educational purposes</param.description>
+    <param.screenshot>C:\Users\AlexRiex\AppData\Local\Temp\tpfaa5e561_1b8b_4a69_89fe_75f266df60dd.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>71c3d57e-1225-4297-b5dd-f26c4b6cadde</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Plot_app.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\MATLAB advanced" name="Assignment 4 GUI" optional="false">D:\MATLAB advanced\Assignment 4 GUI</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2020b</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
